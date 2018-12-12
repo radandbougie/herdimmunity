@@ -1,4 +1,4 @@
-# from jinja2 but I have no idea how this works, I probably should stop using random things I find on the internet
+# a friend recommended this but I have no idea how this works, I probably should stop using random things I find on the internet
 def float_to_percent(my_float):
     return str( int(my_float * 100) ) + "%"
 
@@ -28,7 +28,7 @@ class Logger(object):
         file.close()
 
     def write_end_stats(self, sim, steps):
-    
+
         t = open("end_stats.md", 'r').read()
         summary = t.format(
             len(sim.population.the_dead),
