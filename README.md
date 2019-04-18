@@ -1,0 +1,1 @@
+Used OOP principles to build a virus simulator in Python for my Computer Science course. This simulation builds a population according to initial conditions, either kills or vaccinates them against disease and records all those findings in a new file as seen below. 
